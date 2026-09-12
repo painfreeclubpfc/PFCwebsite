@@ -1,5 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/diamond", "destination": "https://diamond-landing-page-ten.vercel.app/" },
+    { "source": "/diamond/:path*", "destination": "https://diamond-landing-page-ten.vercel.app/:path*" }
+  ]
 }
