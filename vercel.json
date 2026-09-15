@@ -4,8 +4,6 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/diamond", "destination": "https://diamond-landing-page-ten.vercel.app/" },
-    { "source": "/diamond/:path*", "destination": "https://diamond-landing-page-ten.vercel.app/:path*" },
-    { "source": "/moveathon", "destination": "https://moveathon-taupe.vercel.app/" },
-    { "source": "/moveathon/:path*", "destination": "https://moveathon-taupe.vercel.app/:path*" }
+    { "source": "/diamond/:path*", "destination": "https://diamond-landing-page-ten.vercel.app/:path*" }
   ]
 }
