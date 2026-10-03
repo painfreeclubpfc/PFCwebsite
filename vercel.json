@@ -4,20 +4,14 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/diamond", "destination": "https://diamond-landing-page-ten.vercel.app/" },
-    { "source": "/diamond/:path*", "destination": "https://diamond-landing-page-ten.vercel.app/:path*" }
+    { "source": "/diamond/:path*", "destination": "https://diamond-landing-page-ten.vercel.app/:path*" },
+    { "source": "/moveathon", "destination": "https://moveathon-taupe.vercel.app/" },
+    { "source": "/moveathon/:path*", "destination": "https://moveathon-taupe.vercel.app/:path*" },
+    { "source": "/callbooking", "destination": "https://callbooking-tau.vercel.app/" },
+    { "source": "/callbooking/:path*", "destination": "https://callbooking-tau.vercel.app/:path*" }
   ],
   "headers": [
-    {
-      "source": "/diamond",
-      "headers": [
-        { "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }
-      ]
-    },
-    {
-      "source": "/diamond/:path*",
-      "headers": [
-        { "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }
-      ]
-    }
+    { "source": "/diamond", "headers": [{ "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }] },
+    { "source": "/diamond/:path*", "headers": [{ "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }] }
   ]
 }
