@@ -8,7 +8,9 @@
     { "source": "/moveathon", "destination": "https://moveathon-taupe.vercel.app/" },
     { "source": "/moveathon/:path*", "destination": "https://moveathon-taupe.vercel.app/:path*" },
     { "source": "/callbooking", "destination": "https://callbooking-tau.vercel.app/" },
-    { "source": "/callbooking/:path*", "destination": "https://callbooking-tau.vercel.app/:path*" }
+    { "source": "/callbooking/:path*", "destination": "https://callbooking-tau.vercel.app/:path*" },
+    { "source": "/bodyfatcalculator", "destination": "https://bodyfatcalculator-mxi4gwd3o-painfreeclubpfcs-projects.vercel.app/" },
+    { "source": "/bodyfatcalculator/:path*", "destination": "https://bodyfatcalculator-mxi4gwd3o-painfreeclubpfcs-projects.vercel.app/:path*" }
   ],
   "headers": [
     { "source": "/diamond", "headers": [{ "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }] },
